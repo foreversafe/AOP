@@ -15,11 +15,11 @@ import com.example.demo.logs.ServiceLogs;
 public class TestService {
 	@ServiceLogs(description = "商品同步")
 	public Map<String, Object> goodsSync() {
-		System.out.println("/*******************************************/");
+		System.out.println("/***********我是service***********/");
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("key", "商品同步");
-		String s=null;
-		System.out.println(s.length());
+//		String s=null;
+//		System.out.println(s.length());
 		return map;
 	}
 }
