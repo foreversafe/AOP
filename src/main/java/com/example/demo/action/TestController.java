@@ -40,6 +40,7 @@ public class TestController {
 		map.put("key", "创建机器二维码图片URL");
 		Map<String, Object> goodsSync = testService.goodsSync();
 		System.out.println(goodsSync);
+		System.out.println();
 		return JSONResult.create(map).toJSON();
 	}
 
